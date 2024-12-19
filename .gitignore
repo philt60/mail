@@ -16,3 +16,12 @@ MailLogGZSearch.ps1
 MailLogGZSearch2.ps1
 aliases2.txt
 aliases.csv
+mail7/alias_clb_off
+mail7/aliases
+mail7/aliases_spd
+mail7/mail_alias_counts.csv
+mail7/maillog-20241217.gz
+mail7/maillog-20241218.gz
+mail7/maillog-20241219.gz
+mail7/main.cf
+mail7/master.cf

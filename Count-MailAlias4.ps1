@@ -11,9 +11,9 @@ Set-StrictMode -Version Latest
 
 # Define directories based on OS
 if ($env:OS -eq "Windows_NT") {
-    $aliasDir = "c:\tmp\mail7"     # windows practice directory, usually /etc/postfix
-    $logDir = "C:\tmp\mail7"       # windows practice directory, usually /var/log/
-    $outputCsv = "c:\tmp\mail7\mail_alias_counts.csv"
+    $aliasDir = "$PSScriptRoot\mail7"     # windows practice directory, usually /etc/postfix
+    $logDir = "$PSScriptRoot\mail7"       # windows practice directory, usually /var/log/
+    $outputCsv = "$PSScriptRoot\mail7\mail_alias_counts.csv"
 } else {
     $aliasDir = "/etc/postfix"        # where the aliases are, usually /etc/postfix
     $logDir = "/var/log/maillogs"       # where the maillogs are, usually /var/log/
