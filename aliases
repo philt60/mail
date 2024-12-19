@@ -1,0 +1,147 @@
+#  Sendmail Alias File	
+#  @(#)$Header: aliases,v 15.1 89/01/09 15:31:33 dmh Exp $
+#
+#  Mail to an alias in this file will be sent to the users, programs, or
+#  files designated following the colon.
+#  Aliases defined in this file will NOT be expanded in headers from
+#  mailx(1), but WILL be visible over networks and in headers from
+#  /bin/rmail(1).
+#
+#    >>>>>>>>>>	  The program "/usr/bin/newaliases" must be run after
+#    >> NOTE >>	  this file is updated, or else any changes will not be
+#    >>>>>>>>>>	  visible to sendmail.
+##
+
+# Alias for mailer daemon
+MAILER-DAEMON	: root
+
+# RFC 822 requires that every host have a mail address "postmaster" 
+postmaster	: sts.ios@mit.edu
+
+# Aliases to handle mail to msgs and news
+nobody		: /dev/null
+
+# System Administration aliases
+operator	: root
+uucp		: root
+daemon		: root
+
+# Local aliases
+jmoreau: moreau_j@protonmail.com
+aldarus: aldarus@mit.edu,adlar.su@gmail.com
+phils-all: phils@mit.edu,mrpppttt@gmail.com,pprrtt@me.com
+spam-test: aldarus@mit.edu
+slateinbox:mis+3e2969cb-62aa-4ee9-9466-1a28954dfba0@slate-mx.technolutions.net
+sfmba.slateinbox.mitsloan:mis+d5f9f73a-a5ae-41e8-af74-4560cfe768a7@slate-mx.technolutions.net
+embaslateinbox: mis-emb+c1b7acbf-620c-4b3c-977d-6c1e68bccc0d@slate-mx.technolutions.net
+apps: sloants-ads@mit.edu,
+cfine: charley@mit.edu
+dancona: ancona@mit.edu
+dscharfs: dscharf@mit.edu
+eberndt: erberndt@mit.edu
+editor: ashilo@mit.edu,taylorw@mit.edu
+execseminars: sloanexeced@mit.edu
+express-desk: stshelp
+furd: furd@mit.edu
+jvanmaan: jvm@mit.edu
+jwang: wangj@mit.edu
+linuxops: ops,
+rescomp: stshelp,
+mbaadmission: mbaadmissions
+mcusuman: cusumano@mit.edu
+mscottmo: mssm@mit.edu
+netops: ops
+news: news.mitsloan@mit.edu
+nrose: nrose@mit.edu
+ops: sts.ios@mit.edu
+Paul_Osterman: osterman@mit.edu
+rkatz: ralphkatz@aol.com
+roomrequest: sloan-roomrequest@mit.edu
+rsamuel: jamchugh@mit.edu
+rschmale: rschmal@mit.edu
+rwang: rwang@mit.edu
+sbrown: sbrown@mit.edu
+coursebid: hdill@mit.edu,mcam@mit.edu,eseidman@mit.edu
+sloanphd: hross@mit.edu,davin@mit.edu,laur7200@mit.edu
+studentsupport: stshelp
+smr-noreply: smr-help@mit.edu
+stshelp: stshelp@mit.edu
+tmagnant: magnanti@mit.edu
+ugeducation: ugeducation-sloan@mit.edu 
+ugprogram: ugeducation-sloan@mit.edu 
+webmaster: dspatil@mit.edu,genea@mit.edu,mendes@mit.edu
+workingpapers: jrunyon@mit.edu,tashjian@mit.edu
+
+# -- Aliases for list indirection
+scc: sts
+
+sts: sts.staff.mitsloan@mit.edu
+
+# -- Aliases for marriage, etc
+mmikhailova: mregelman
+par.anbil: partha.anbil
+laura.meeks: lsaltonstall
+szussa: stacyp
+lpradell: lisa.farrell
+
+# Temporary
+ms-email-test: aldarus@mit.edu
+msmsadmissions: jburke@mit.edu,akiley@mit.edu
+#Majordomo aliases to forward to Mailman/Moria
+admit: mbaadmit.mitsloan@mit.edu
+appsupport: appsupport.mitsloan@mit.edu
+mitsloancareers: Careers.mitsloan@mit.edu
+mitsloancdo: cdo.mitsloan@mit.edu
+digitalsignage: digitalsignage.mitsloan@mit.edu
+sloan_ed_services: edservices.mitsloan@mit.edu
+emba12: emba12.mitsloan@mit.edu
+emba13: emba13.mitsloan@mit.edu
+adcom: mbaadcom.mitsloan@mit.edu
+mbaadmissions: mbaadmissions.mitsloan@mit.edu
+mbanadcom: mbanadcom.mitsloan@mit.edu
+mbaprogramoffice: mbaprogramoffice.mitsloan@mit.edu
+mbawaitinglist: mbawaitinglist.mitsloan@mit.edu
+mfinadcom: mfinadcom.mitsloan@mit.edu
+mfinadmissions: mfinadmissions.mitsloan@mit.edu
+mot03: mot03.mitsloan@mit.edu
+mot04: mot04.mitsloan@mit.edu
+mot98: mot98.mitsloan@mit.edu
+msms: msmsprogramoffice.mitsloan@mit.edu
+ocplanning: oc.planning.mitsloan@mit.edu
+osg-seminar:  osg-seminar@mit.edu
+photolibrary: photolibrary.mitsloan@mit.edu
+sesannouncements: sesannouncements.mitsloan@mit.edu
+sf01: sf01.mitsloan@mit.edu
+sf02: sf02.mitsloan@mit.edu
+sf03: sf03.mitsloan@mit.edu
+sf05: sf05.mitsloan@mit.edu
+sf06: sf06.mitsloan@mit.edu
+sf07: sf07.mitsloan@mit.edu
+sf10: sf10.mitsloan@mit.edu
+sf11: sf11.mitsloan@mit.edu
+sf12: sf12.mitsloan@mit.edu
+sf13: sf13.mitsloan@mit.edu
+sfadmissions: sfadmissions.mitsloan@mit.edu
+sfpartner03: sfpartner03.mitsloan@mit.edu
+sfpartner04: sfpartner04.mitsloan@mit.edu
+sfpartner06: sfpartner06.mitsloan@mit.edu
+sfpartner09: sfpartner09.mitsloan@mit.edu
+sfpartner11: sfpartner11.mitsloan@mit.edu
+sfpartner13: sfpartner13.mitsloan@mit.edu
+sustainability: sloan-sustainability-initiative@mit.edu
+studentfunding: studentfunding.mitsloan@mit.edu
+visitingfellows: visitingfellows.mitsloan@mit.edu
+web: web.mitsloan@mit.edu
+
+#Majordomo batch 2
+
+slquestions: slquestions@mit.edu
+
+#Majordomo batch 2 temporary aliases
+#info: nmort930@mit.edu,alexie@mit.edu,vgifford@mit.edu
+info: nmort930@mit.edu
+
+#sloan groups test aliases
+
+#dlt aws
+ops-aws: sts.ios@mit.edu 
